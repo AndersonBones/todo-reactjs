@@ -1,0 +1,48 @@
+.task{
+    background-color: var(--gray-500);
+    padding: .5rem;
+    border-radius: .3rem;
+    border: 1px solid var(--gray-400);
+
+    transition: .2s ease-in-out;
+}
+
+.task:hover{
+    background-color: var(--gray-400);
+}
+.taskBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    
+}
+
+.taskContent{
+    text-align: left;
+    width: 100%;
+}
+.taskContent p{
+    word-break: normal;
+}
+
+.taskBody button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.taskBody button:first-child{
+    color: var(--blue-400);
+}
+
+.taskBody button:last-child{
+    color: var(--gray-300);
+    font-size: 1.1rem;
+}
+
+.checkCircle{
+
+    color: var(--purpleDark);
+}

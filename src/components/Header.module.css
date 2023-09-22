@@ -1,0 +1,53 @@
+.todoHeader{
+    width: 100%;
+    position: relative;
+    padding: 4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0D0D0D;
+}
+
+.inputTask{
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    
+    transform: translate(-50%, 50%);
+
+    width: 44rem;
+   
+}
+
+.inputTask input{
+    
+    width: 100%;
+    border: none;
+    border-radius: .3rem;
+    padding: .8rem .7rem;
+    background-color: var(--gray-500);
+    font-size: 16px;
+    color: white;
+    outline: none;
+    border: 1px solid var(--gray-700);
+}
+
+.inputTask input[type="text"]::placeholder{
+    color: var(--gray-300);
+}
+
+.inputTask button{
+    background-color: var(--blue-300);
+    border: none;
+    display: flex;
+    align-items: center;
+
+    padding: 0 1.2rem;
+    border-radius: .3rem;
+    cursor: pointer;
+    gap: .3rem;
+    font-size: 16px;
+    color: white;
+}
