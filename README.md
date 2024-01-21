@@ -28,4 +28,4 @@ If you are developing a production application, we recommend updating the config
 
 # Preview
 ![image](https://github.com/AndersonBones/todo-reactjs/assets/91613692/2f014a31-67e2-4f46-9979-487da9cb9c6c)
-<a href="https://andersonbones.github.io/todo-reactjs/" target="blank" >Live Demo</a>
+<a href="https://andersonbones.github.io/todo-reactjs/" target="_blank" >Live Demo</a>
