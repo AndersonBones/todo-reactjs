@@ -48,7 +48,7 @@ function App() {
 
   const deleteTask = (id:string)=>{
         
-    let newTaskList = tasks.filter(task=>{
+    const newTaskList = tasks.filter(task=>{
         return task.id != id;
     })
     setTasksAndSave(newTaskList);
@@ -60,7 +60,7 @@ function App() {
     
 
   const checkTask = (id:string) =>{
-    let newTaskList = [...tasks]
+    const newTaskList = [...tasks]
 
     newTaskList.map(item=>{
       if(item.id == id && item.isCompleted == false){
@@ -75,7 +75,7 @@ function App() {
 
   }
 
-  const sizeTasks = tasks.length > 0;
+  
 
   return (
     <>

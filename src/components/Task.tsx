@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import { ITask } from '../App'
 import styles from './Task.module.css'
 import {Circle, Trash, CheckCircle } from 'phosphor-react'
